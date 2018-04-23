@@ -1,0 +1,109 @@
+[11-Apr-2018 12:39:19 UTC] PHP Warning:  require(/home/cueserve/public_html/laravel/trackit/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/cueserve/public_html/laravel/trackit/index.php on line 22
+[11-Apr-2018 12:39:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/cueserve/public_html/laravel/trackit/../bootstrap/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cueserve/public_html/laravel/trackit/index.php on line 22
+[11-Apr-2018 13:31:41 UTC] PHP Fatal error:  Call to a member function isEmpty() on array in /home/cueserve/public_html/laravel/trackit/app/Http/Controllers/UsersController.php on line 27
+[11-Apr-2018 13:32:36 UTC] PHP Fatal error:  Call to a member function isEmpty() on array in /home/cueserve/public_html/laravel/trackit/app/Http/Controllers/UsersController.php on line 27
+[17-Apr-2018 06:03:59 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/cueserve/public_html/laravel/trackit/app/Http/Controllers/DashboardController.php on line 364
+[17-Apr-2018 09:36:35 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:36:37 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:37:15 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:37:15 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:37:16 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:37:16 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[17-Apr-2018 09:37:29 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpKernel\Exception\NotFoundHttpException as array in /home/cueserve/public_html/laravel/trackit/app/Exceptions/Handler.php on line 46
+[18-Apr-2018 10:35:32 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\Debug\ExceptionHandler->getContent(Object(Symfony\Component\Debug\Exceptio in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 10:36:23 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\Debug\ExceptionHandler->getContent(Object(Symfony\Component\Debug\Exceptio in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 10:37:05 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\Debug\ExceptionHandler->getContent(Object(Symfony\Component\Debug\Exceptio in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 10:46:25 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\Debug\ExceptionHandler->getContent(Object(Symfony\Component\Debug\Exceptio in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 10:52:23 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\Debug\ExceptionHandler->getContent(Object(Symfony\Component\Debug\Exceptio in /home/cueserve/public_html/laravel/trackit/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 12:39:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:41:25 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:42:03 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:42:19 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:42:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:43:13 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:44:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:44:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/cueserve/public_html/laravel/trackit/trackit-api/app/Http/Controllers/UsersController.php on line 3
+[19-Apr-2018 12:50:20 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 265
+[19-Apr-2018 12:53:06 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 265
+[19-Apr-2018 12:53:20 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 265
+[19-Apr-2018 12:53:59 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 265
+[19-Apr-2018 12:54:13 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 12:54:44 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 12:55:07 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 12:55:55 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 265
+[19-Apr-2018 12:57:55 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 13:10:09 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 13:10:31 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 13:11:32 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'View [error.400] not found.' in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error.400', Array)
+#1 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\View\FileViewFinder->find('error.400')
+#2 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(748): Illuminate\View\Factory->make('error/400', Array, Array)
+#3 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(227): view('error/400')
+#4 /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/symfony/debug/ExceptionHandler.php(210): Symfony\Component\De in /home/cueserve/public_html/laravel/trackit/trackit-api/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
